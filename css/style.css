@@ -1,0 +1,128 @@
+body{
+    font-family: Tahoma, sans-serif;
+    background-color: #7796a6;
+}
+
+/* Разделитель */
+.border {
+    margin: 40px 50px;
+    border-bottom: 3px solid #494949;
+}
+
+/* Страница */
+.page{
+    width: 700px;
+    height: 700px;
+    margin: auto;
+    background: rgb(227 249 157);
+}
+
+.title{
+    text-align: center;
+    font-size: 32px;
+    color: #424141;
+}
+
+/* Услуги */
+.service{
+    display: flex;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+.flex_service{
+    margin: auto;
+    width: 200px;
+}
+
+.flex_service label{
+    display: block;
+    margin: 0 0 10px 0;
+}
+
+.flex_service input{
+    font-family: Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.form_select{
+    width: 180px;
+    height: 25px;
+    display: block;
+
+    font-size: 20px;
+}
+
+.text_service{
+    text-align: left;
+    display: flex;
+}
+
+.text_service h3{
+    text-align: center;
+}
+
+
+
+/* Дополнительные услуги */
+.add_service{
+    text-align: center;
+    display: flex;
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.add{
+    padding: 10px;
+    margin: 0 auto;
+    border: 3px solid #724b4b;
+    border-radius: 10px;
+    width: 250px;;
+}
+
+
+.options {
+    margin: 0 auto;
+    border: 3px solid #724b4b;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.add_options{
+    font-size: 15px;
+}
+
+/* Кнопка */
+
+.btn_service{
+    margin: 30px;
+}
+
+.btn{
+    margin: auto;
+    display: block;
+    background-color: #d04040;
+
+    width: 140px;
+    height: 40px;
+
+    font-size: 15px;
+    color: antiquewhite;
+}
+
+.btn:hover{
+    background-color: #b03838;
+}
+.btn:active{
+    background-color: #832a2a;
+}
+
+/* Результат */
+
+.result{
+    display: block;
+    margin: auto;
+}
+
+
+
